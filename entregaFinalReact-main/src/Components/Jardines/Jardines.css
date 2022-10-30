@@ -1,0 +1,8 @@
+.jardinesPrincipal {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../img/fondo3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

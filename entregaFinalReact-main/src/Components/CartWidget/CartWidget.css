@@ -1,0 +1,34 @@
+.iconoCarritoContenedor {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.iconoCarrito {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.contenedorContador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 18px;
+  height: 18px;
+  background-color: rgb(243, 92, 72);
+  border-radius: 10px;
+  position: absolute;
+  top: 47px;
+  right: 30px;
+  font-size: 12px;
+  font-family: "roboto", sans-serif;
+  z-index: 0;
+}
+@media (max-width: 991px) {
+}

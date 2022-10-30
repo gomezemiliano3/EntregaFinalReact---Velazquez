@@ -1,0 +1,44 @@
+.contenedorPrincipal {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../img/fondo1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  display: flex;
+  color: white;
+}
+
+.informacion {
+  margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo {
+  font-family: "Dancing Script", cursive;
+  height: 10vh;
+  margin-bottom: 30px;
+  font-size: 82px;
+}
+.contenedorPrincipal p {
+  font-family: "poppins", sans-serif;
+  font-size: 26px;
+  padding-right: 1vw;
+}
+.contenedorPrincipal h3 {
+  font-family: "poppins", sans-serif;
+  font-size: 29px;
+}
+.juntas {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .contenedorPrincipal {
+    background-image: url(../../img/fondo3.png);
+  }
+}
